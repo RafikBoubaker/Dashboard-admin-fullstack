@@ -1,0 +1,34 @@
+GET http://localhost:3000/subscribers
+###
+
+
+GET http://localhost:3000/subscribers/609eee9f776b370bccd3334c
+
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+  "name" : "rafik boubaker",
+  "subscribedToChannel" : "  reactJS & vue js "
+
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/6093d0a856f07227d802a46c
+
+
+###
+
+PATCH http://localhost:3000/subscribers/609eee9f776b370bccd3334c
+Content-Type: application/json
+
+
+{
+  "name" : "new hero",
+  "subscribedToChannel" : "express and mangodb"
+  
+}
